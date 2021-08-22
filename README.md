@@ -12,7 +12,7 @@ python main.py
 If you are interested in running this project with other parameters then modify ```main.py```.
 
 ### Experiments
-I trained a PyTorch model for Connect-5 (~100 iterations, 50 episodes per iteration and 15 MCTS simulations per turn). This took about 12 hours. 
+I trained a PyTorch model for Connect-4 (~100 iterations, 50 episodes per iteration and 15 MCTS simulations per turn). This took about 12 hours. 
 
 Description of relevant algorithm can be found 
 1.
