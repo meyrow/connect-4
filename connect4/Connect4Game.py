@@ -52,11 +52,9 @@ class Connect4Game(Game):
             return 0
 
     def getCanonicalForm(self, board, player):
-        # Flip player from 1 to -1
         return board * player
 
     def getSymmetries(self, board, pi):
-        """Board is left/right board symmetric"""
         return [(board, pi), (board[:, ::-1], pi[::-1])]
 
     def stringRepresentation(self, board):
