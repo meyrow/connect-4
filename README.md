@@ -1,4 +1,4 @@
-# mastering connect-4 game with Alpha Zero General
+# Mastering Connect-4 game with Alpha Zero General
 This project is based on https://github.com/suragnair/alpha-zero-general
 For my studies I have tried the alpha-zero-general with connect-4 game.
 The purpose was to see if the trained models would draw after training.
