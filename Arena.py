@@ -16,11 +16,10 @@ class Arena():
         Input:
             player 1,2: two functions that takes board as input, return action
             game: Game object
-            display: a function that takes board as input and prints it (e.g.
-                     display in othello/OthelloGame). Is necessary for verbose
+            display: a function that takes board as input  and prints it. Is necessary for verbose
                      mode.
 
-        see othello/OthelloPlayers.py for an example. See pit.py for pitting
+        See pit.py for pitting
         human players/other baselines with each other.
         """
         self.player1 = player1

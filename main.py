@@ -28,7 +28,7 @@ args = dotdict({
 
     'checkpoint': './temp/',
     'load_model': False,
-    'load_folder_file': ('/dev/models/8x100x50','best.pth.tar'),
+    'load_folder_file': ('/dev/models/connect-4','best.pth.tar'),
     'numItersForTrainExamplesHistory': 20,
 
 })
@@ -40,12 +40,6 @@ def main():
 
     log.info('Loading %s...', nn.__name__)
     nnet = nn(g)
-
-    if args.load_model:
-        log.info('Loading checkpoint "%s/%s"...', args.load_folder_file)
-        nnet.load_checkpoint(args.load_folder_file[0], args.load_folder_file[1])
-    else:
-        log.warning('Not loading a checkpoint!')
 
     log.info('Loading the Coach...')
     c = Coach(g, nnet, args)

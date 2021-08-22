@@ -1,7 +1,7 @@
 # Connect4 implementation for Alpha Zero General
 
 Alpha-zero general implementation of connect4.
-Neural network architecture was copy-pasted from the game of Othello, so could likely be improved.
+Neural network architecture improved for connect 4
 
 To train a model for Connect4, update the imports in ```main.py``` to:
 ```python
