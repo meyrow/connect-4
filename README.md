@@ -1,10 +1,10 @@
 # Mastering Connect-4 game with Alpha Zero General
-This project is based on https://github.com/suragnair/alpha-zero-general
+This project is based on [alpha-zero-general](https://github.com/suragnair/alpha-zero-general)
 For my studies I have tried the alpha-zero-general with connect-4 game.
 The purpose was to see if the trained models would draw after training.
 The code in this project is a skeleton of the original alpha-zero-general. 
 
-A deep neural network traning process learn how to improve its model. The winner model will be challenge by a new model. If the new model is taken to be better than the previous, then the new model will lead for next game. This routine will go on until we have two models who are invincible. The two models plays against each other, called self-play, expecting that all the games will result with draws/
+A deep neural network traning process learn how to improve its model. The winner model will be challenge by a new model. If the new model is taken to be better than the previous, then the new model will lead for next game. This routine will go on until we have two models who are invincible. The two models plays against each other, called self-play, expecting that all the games will result with draws
 
 A second indication that our models are improved by the time of iterations, is meseaured by validation loss and policy loss. If the loss (error) is improved by each iteration then Neural Network is learning properly without overfitting. 
 
