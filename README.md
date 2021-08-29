@@ -3,7 +3,12 @@ This project is based on [alpha-zero-general](https://github.com/suragnair/alpha
 
 For my studies I have tried the alpha-zero-general with connect-4 game.
 The purpose was to see if the trained models would draw after training.
-The code in this project is a skeleton of the original alpha-zero-general. 
+The code in this project has a skeleton of the original alpha-zero-general. 
+
+The game Connect-4 seems not to be than complex, there are a many web sites claiming how easy it is to win in this game. They guarantee a victory in the game if you apply some techniques. Search on the internet "how to win connect 4 easily", and you will be impressed how easy it is to win. But it is incorrect.
+According to science article [Infinite Connect-Four Is Solved: Draw](https://link.springer.com/chapter/10.1007/978-3-642-31866-5_18) it is proved that if both players are experts the outcome of the play would be draws.
+
+For classic Connect Four played on 6 high, 7 wide grid, there are [4,531,985,219,092 positions](https://en.wikipedia.org/wiki/Connect_Four) for all game boards populated with 0 to 42 pieces
 
 A deep neural network traning process learn how to improve its model. The winner model will be challenge by a new model. If the new model is taken to be better than the previous, then the new model will lead for next game. This routine will go on until we have two models who are invincible. The two models plays against each other, called self-play, expecting that all the games will result with draws
 
